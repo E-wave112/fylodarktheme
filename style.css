@@ -1,0 +1,295 @@
+/*BASE STYLES*/
+
+
+    .attribution {
+         font-size: 11px;
+          text-align: center; 
+
+    }
+    .attribution a { 
+        color: hsl(228, 45%, 44%); 
+
+    }
+
+body {
+
+    background-color:hsl(218, 28%, 13%);
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav {
+    display:flex;
+    justify-content:space-between;
+}
+
+.navbar-nav mr-auto {
+    display:flex;
+    justify-content:space-around;
+    color:gray;
+}
+
+
+@media (min-width:375px) {
+
+      #forbody {
+        width: 100%;
+        margin-left:10%;
+        color:white;
+    }
+
+    form  {
+        margin-left:0%;
+
+    }
+
+    .form-control {
+         border-radius:10%;
+         width:85%;
+         margin:auto;
+
+    }
+    .btn {
+        width:90%;
+        margin-left:5%;
+
+    }
+
+      
+    header {
+        display: flex;
+        flex-direction:row;
+        justify-content: space-between;
+    }
+
+    #headdiv1, #headdiv2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 90%;
+        margin-left: 15%;
+        color: white;
+    }
+    #headdiv3 {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        width: 80%;
+        margin: auto;
+        color: white;
+    }
+
+    #fifth > p {
+        color: green;
+        font-size: small;
+        text-decoration: underline;
+        text-decoration-color: green;
+    }
+    #og3 a:link {
+        line-height:2;
+        width:200px;
+        transform:scaleX(1.0);
+    }
+
+    .quotes {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        background-image: url(bg-quotes.png);
+        background-repeat: no-repeat;
+        width: 100%;
+        margin-left:10%;
+    }
+
+    #point1, #point2, #point3 {
+        border: 9px solid hsl(218, 28%, 13%);
+        background-color: hsl(219, 30%, 18%);
+        color: white;
+    }
+
+    #point1 {
+        background:url(bg-quotes.png) no-repeat;
+    }
+
+        #foot1 {
+        display: flex;
+        flex-direction:column;
+        justify-content: space-between;
+        color: white;
+        background-color: hsl(216, 53%, 9%);
+        line-height:2;
+        width:135%;
+    }
+
+        #mainfute, #fute2, #fute3, #fute4, #finale {
+        margin-top: 8%;
+    }
+
+         img {
+        border-radius: 35%;
+    }
+
+    #docs {
+        width:100%;
+        margin-left:10%;
+        color: white;
+        background-color: hsl(219, 30%, 18%);
+        transform:translate(0px, 70px);
+    }
+
+    .imag {
+        
+    }
+
+
+
+
+}
+
+@media (min-width:1000px) {
+
+    header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    #og3 {
+        line-height:2;
+        width:200px;
+        transform:scaleX(1.2);
+    }
+
+
+  
+
+    #og2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        color: gray;
+        font-size: 14px;
+    }
+
+    button {
+        text-decoration: none;
+        width: 200px;
+        height: 40px;
+        background-color: hsl(176, 68%, 64%);
+        border-radius: 30%;
+    }
+
+    #expose > p {
+        font-size: large;
+    }
+
+    #forbody {
+        width: 70%;
+        margin: auto;
+        color: white;
+    }
+
+    #div1, #expose {
+        width: 80%;
+        margin: auto;
+    }
+
+    button {
+        margin-left: 15%;
+        margin-right: 30%;
+    }
+
+    #headdiv1, #headdiv2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 80%;
+        margin: auto;
+        color: white;
+    }
+
+    #headdiv3 {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        width: 80%;
+        margin: auto;
+        color: white;
+    }
+
+        #headdiv3 > #fifth {
+            margin-top: 5%;
+            margin-left: 10%;
+        }
+
+    #fifth > p {
+        color: green;
+        font-size: small;
+        text-decoration: underline;
+        text-decoration-color: green;
+    }
+
+    .quotes {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        background-image: url(bg-quotes.png);
+        background-repeat: no-repeat;
+        width: 90%;
+        margin: auto;
+    }
+
+    #point1, #point2, #point3 {
+        border: 9px solid hsl(218, 28%, 13%);
+        background-color: hsl(219, 30%, 18%);
+        color: white;
+    }
+
+    img {
+        border-radius: 35%;
+    }
+
+    div#og2 {
+        border-right: 10px solid hsl(218, 28%, 13%);
+    }
+
+    form-control form-control-lg {
+        width: 500px;
+    }
+
+    #docs {
+        width: 70%;
+        margin: auto;
+        color: white;
+        background-color: hsl(219, 30%, 18%);
+        transform:translate(0px, 70px);
+    }
+
+    input {
+        height: 35px;
+        margin-left: 0%;
+        width: 270px;
+        margin-bottom: -29%;
+    }
+
+    .btn btn-primary btn-lg {
+        margin-left: 50%;
+    }
+
+    #foot1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        color: white;
+        background-color: hsl(216, 53%, 9%);
+        line-height: 2;
+    }
+
+    #mainfute, #fute2, #fute3, #fute4, #finale {
+        margin-top: 8%;
+    }
+
+    .quotes p {
+
+        transform:translate(40px, -40px);
+    }
+}
